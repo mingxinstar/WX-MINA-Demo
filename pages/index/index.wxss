@@ -1,0 +1,24 @@
+.star-list {
+    box-sizing: border-box;
+    padding: 0 10rpx;
+}
+
+.star-item {
+    float: left;
+    box-sizing: border-box;
+    width: 365rpx;
+    margin: 0 0 10rpx -0px;
+}
+
+.star-item image {
+    width: 360rpx;
+    height: 270rpx;
+}
+
+.star-item .star-name {
+    font-size: 10rpx;
+    width: 360rpx;
+    height: 24rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

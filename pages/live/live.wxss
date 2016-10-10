@@ -1,0 +1,4 @@
+#livePlayer {
+    width: 750rpx;
+    height: 562.5rpx;
+}

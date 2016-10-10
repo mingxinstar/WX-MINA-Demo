@@ -1,7 +1,8 @@
 {
     "pages":[
         "pages/index/index",
-        "pages/logs/logs"
+        "pages/logs/logs",
+        "pages/live/live"
     ],
     "window":{
         "backgroundTextStyle":"light",
@@ -9,5 +10,25 @@
         "navigationBarTitleText": "么么直播",
         "navigationBarTextStyle":"black",
         "enablePullDownRefresh" : true
+    },
+    "tabBar" : {
+        "selectedColor" : "#48C23D",
+        "borderStyle" : "white",
+        "list" : [{
+            "pagePath" : "pages/index/index",
+            "text" : "首页",
+            "iconPath" : "images/wechat.png",
+            "selectedIconPath" : "images/wechatHL.png"
+        },{
+            "pagePath" : "pages/index/index",
+            "text" : "关注",
+            "iconPath" : "images/wechat.png",
+            "selectedIconPath" : "images/wechatHL.png"
+        },{
+            "pagePath" : "pages/index/index",
+            "text" : "我的",
+            "iconPath" : "images/wechat.png",
+            "selectedIconPath" : "images/wechatHL.png"
+        }]
     }
 }

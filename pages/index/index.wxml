@@ -3,7 +3,8 @@
     <view class="star-list">
         <block wx:for="{{liveList}}">
             <view bindtap="gotoLivePage" class="star-item" data-id="{{item._id}}">
-                <image src="{{item.app_pic_url}}"></image>
+                <image src="{{item.pic}}"></image>
+                <view class="star-name">{{item.nick_name}}</view>
             </view>
         </block>
     </view>

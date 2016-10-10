@@ -12,12 +12,15 @@ Page({
     //事件处理函数
     bindViewTap: function() {
         wx.navigateTo({
-            // wx.redirectTo({
             url: '../logs/logs'
         })
     },
     gotoLivePage : (event) => {
         console.log(event.currentTarget.dataset)
+
+        wx.navigateTo({
+            url: `../live/live?id=${event.currentTarget.dataset.id}`
+        })
     },
     onLoad: function () {
         console.log('onLoad')
