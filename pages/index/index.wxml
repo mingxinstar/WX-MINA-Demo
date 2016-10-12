@@ -4,7 +4,7 @@
         <block wx:for="{{liveList}}">
             <view bindtap="gotoLivePage" class="star-item" data-id="{{item._id}}">
                 <image src="{{item.pic}}"></image>
-                <view class="star-name">{{item.nick_name}}</view>
+                <div class="star-name">{{item.nick_name}}</div>
             </view>
         </block>
     </view>
